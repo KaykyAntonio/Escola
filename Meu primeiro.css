@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(32,32,248),rgb(19,19,55));
+}
+.box{
+    border-radius: 10px;
+    width: 35%;
+    position: absolute;
+    color: white;
+    color: blue;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+fieldset{
+    border:5px solid dodgerblue;
+    background-color: black;
+}
+legend{
+    border: 5px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    color: blue;
+    background-color: black;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
